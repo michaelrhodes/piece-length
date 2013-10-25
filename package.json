@@ -1,0 +1,44 @@
+{
+  "name": "piece-size",
+  "version": "0.0.0",
+  "description": "Finds the optimal piece size for a given number of bytes.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "closest-to": "~0.0.1"
+  },
+  "devDependencies": {
+    "tape": "~2.0.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": {
+      "ie": [7, 8, 9, 10],
+      "chrome": [25],
+      "firefox": [4, 19],
+      "safari": [5.1, 6],
+      "opera": [12],
+      "iphone": [6],
+      "android": [4.2]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:michaelrhodes/piece-size.git"
+  },
+  "keywords": [
+    "piece",
+    "length",
+    "torrent"
+  ],
+  "author": "Michael Rhodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/piece-size/issues"
+  }
+}
