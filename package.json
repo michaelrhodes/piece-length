@@ -1,7 +1,7 @@
 {
-  "name": "piece-size",
+  "name": "piece-length",
   "version": "0.0.0",
-  "description": "Finds the optimal piece size for a given number of bytes.",
+  "description": "Finds the optimal piece length for a given number of bytes.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:michaelrhodes/piece-size.git"
+    "url": "git@github.com:michaelrhodes/piece-length.git"
   },
   "keywords": [
     "piece",
@@ -39,6 +39,6 @@
   "author": "Michael Rhodes",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/michaelrhodes/piece-size/issues"
+    "url": "https://github.com/michaelrhodes/piece-length/issues"
   }
 }
