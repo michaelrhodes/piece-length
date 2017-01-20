@@ -7,7 +7,7 @@
     "test": "test"
   },
   "dependencies": {
-    "closest-to": "~0.0.1"
+    "closest-to": "~2.0.0"
   },
   "devDependencies": {
     "tape": "~2.0.0"
