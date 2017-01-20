@@ -1,13 +1,10 @@
 var closest = require('closest-to')
+var kB = Math.pow(2, 10)
 
 // Create a range from 16kb–4mb
-var sizes = []
-for (var i = 14; i <= 22; i++) {
-  sizes.push(Math.pow(2, i))
-}
+var p = 13, range = []
+while (p++ < 22) range.push(Math.pow(2, p))
 
-module.exports = function(size) {
-  return closest(
-    size / Math.pow(2, 10), sizes 
-  )
+module.exports = function (bytes) {
+  return closest(bytes / kB, range)
 }
