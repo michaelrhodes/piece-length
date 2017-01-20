@@ -1,6 +1,6 @@
 {
   "name": "piece-length",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Finds the optimal piece length for a given number of bytes.",
   "main": "index.js",
   "directories": {
