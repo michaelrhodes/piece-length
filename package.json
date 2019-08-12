@@ -1,7 +1,7 @@
 {
   "name": "piece-length",
   "author": ["Michael Rhodes", "Jimmy Wärting <jimmy@warting.se>"],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
