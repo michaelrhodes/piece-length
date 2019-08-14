@@ -7,6 +7,7 @@ piece-length finds the optimal piece length for a given number of bytes. Optimal
 ```
 npm install piece-length
 ```
+note: you may need to polyfill [`Math.log2`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log2#Browser_compatibility)
 
 ### use
 ``` js
