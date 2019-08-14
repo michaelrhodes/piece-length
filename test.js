@@ -89,6 +89,17 @@ test('4.5gb', function (assert) {
   assert.end()
 })
 
+test('1 B', function (assert) {
+  var bytes = 1
+  var result = piece(bytes)
+  var expected = Math.pow(2, 14)
+  var pieces = Math.ceil(bytes / expected)
+  var log = message(bytes, expected, pieces)
+
+  assert.equal(result, expected, log)
+  assert.end()
+})
+
 function message (bytes, expected, pieces) {
   var target = (bytes < 1e9 ?
     ~~(bytes / Math.pow(2, 20)) + 'mb' :
