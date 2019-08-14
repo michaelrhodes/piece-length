@@ -9,5 +9,9 @@
   },
   "scripts": {
     "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/michaelrhodes/piece-length.git"
   }
 }
